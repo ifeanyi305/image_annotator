@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.upload.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.upload_con {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  max-height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.active {
+  border-color: #000;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: #6dbdff;
+  color: white;
+  border-radius: 5px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input_con {
+  margin-right: 10px;
+}
+
+.custom_label {
+  background-color: #6dbdff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom_label:hover {
+  background-color: #4ca3dd;
+}
