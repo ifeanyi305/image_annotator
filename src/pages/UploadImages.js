@@ -35,7 +35,7 @@ const UploadImages = ({ imageFiles, setImageFiles, imagesPreview, setImagesPrevi
 
   useEffect(() => {
     return () => {
-      imageFiles.forEach((file) => URL.revokeObjectURL(file));
+      imageFiles?.forEach((file) => URL.revokeObjectURL(file));
     };
   }, [imageFiles]);
 
